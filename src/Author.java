@@ -1,17 +1,17 @@
 public class Author {
     private String firstName;
-    private String lastNAme;
+    private String lastName;
 
-    public Author(String firstName, String lastNAme) {
+    public Author(String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastNAme = lastNAme;
+        this.lastName = lastName;
     }
 
     public String getFirstName() {
         return firstName;
     }
 
-    public String getLastNAme() {
-        return lastNAme;
+    public String getLastName() {
+        return lastName;
     }
 }
